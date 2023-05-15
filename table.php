@@ -6,21 +6,23 @@ require 'config.php';
 <html>
 <head>
 <link href= "stylex.css" rel = "stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<html lang = "en">
+ <meta charset="utf-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
-<div class = "table_container">
+<body class = "container bg-dark">
+<div class = "container-md pt-5 my-5 bg-light text-dark">
 <table>
-<th>
-<tr>
-<td>Id</td>
-<td>Name</td>
-<td>Email</td>
-<td>Website</td>
-<td>Comment</td>
-<td>Gender</td>
+<th  >
+<tr class = "row">
+<td class = "col-sm-3">Id</td>
+<td class = "col-sm-3">Name</td>
+<td class = "col-sm-3">Email</td>
+<td class = "col-sm-3">Website</td>
+<td class = "col-sm-3">Comment</td>
+<td class = "col-sm-3">Gender</td>
 </tr>
 </th>
 </table>
