@@ -12,7 +12,7 @@
 <h2>Form validation</h2>
 <form method = "post" action = "index.php">
 <label>Name</label>
- <input type = "text" name = "name" checked = "checked">
+ <input type = "text" name = "name">
 <label>E-mail</label>
 
  <input type = "text" name = "email" >
