@@ -16,13 +16,13 @@ require 'config.php';
 <div class = "container-md pt-5 my-5 bg-light text-dark">
 <table>
 <th  >
-<tr class = "row">
-<td class = "col-sm-3">Id</td>
-<td class = "col-sm-3">Name</td>
-<td class = "col-sm-3">Email</td>
-<td class = "col-sm-3">Website</td>
-<td class = "col-sm-3">Comment</td>
-<td class = "col-sm-3">Gender</td>
+<tr class = "row my-5 text-center">
+<td class = "col-sm-2">Id</td>
+<td class = "col-sm-2">Name</td>
+<td class = "col-sm-2">Email</td>
+<td class = "col-sm-2">Website</td>
+<td class = "col-sm-2">Comment</td>
+<td class = "col-sm-2">Gender</td>
 </tr>
 </th>
 </table>
