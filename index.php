@@ -1,7 +1,4 @@
-<?php
-session_start();
-require 'config.php';
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,7 +34,7 @@ require 'config.php';
 <input type = "radio" name = "gender" value  = "other"> 
 </div>
 <br><br>
-<input  type = "submit" name = "submit" value  = "submit"> 
+<a class = "submit-btn"  href = "table.php" name = "submit" value  = "submit">Submit </a>
 </form>
 <script>
     if ( window.history.replaceState ) {
@@ -46,7 +43,8 @@ require 'config.php';
 </script>
 <?php
 
-
+session_start();
+require 'config.php';
 $name = " ";
 $email = " ";
 $website = " ";
