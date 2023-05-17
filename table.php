@@ -33,7 +33,7 @@
 <div class = "col-md-12">
 <div class = "mt-5 mb-3 clearfix">
 <h2 class = "pull-left">User details</h2>
-<a href = "index.php" class = "btn btn-success pull-right"><i class="fa-solid fa-plus mx-2"></i>Add Users</a>
+<a href = "create.php" class = "btn btn-success pull-right"><i class="fa-solid fa-plus mx-2"></i>Add Users</a>
 </div>
 
 <?php

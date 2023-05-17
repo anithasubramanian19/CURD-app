@@ -13,19 +13,19 @@
 <h2>Form validation</h2>
 <form method = "post" action = "index.php">
 <label>Name</label>
- <input type = "text" name = "name" require>
+ <input type = "text" name = "name" required>
 <label>E-mail</label>
 
- <input type = "text" name = "email" require>
+ <input type = "text" name = "email" required>
 <label>Website</label>
 
-<input type = "text" name = "website" require>
+<input type = "text" name = "website" required>
 <label>Comment</label>
 
 <textarea  name = "comment" rows = "5" cols = "40"></textarea>
 <label>Gender</label>
 
-<div class = "checkbox" require>
+<div class = "checkbox" required>
 <label>Female</label>
 <input type = "radio" name = "gender" value  = "Female"> 
 <label>Male</label>
@@ -34,7 +34,7 @@
 <input type = "radio" name = "gender" value  = "other"> 
 </div>
 <br><br>
-<a class = "submit-btn"  href = "table.php" name = "submit" value  = "submit">Submit </a>
+<input type = "submit" value = "Submit" class = "submit-btn">
 </form>
 <script>
     if ( window.history.replaceState ) {
