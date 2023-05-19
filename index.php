@@ -13,7 +13,7 @@
 <h2>Form validation</h2>
 <form method = "post" action = "index.php">
 <label>Name</label>
- <input type = "text" name = "name" required>
+ <input type = "text" name = "name" <?php echo !empty() ?> required>
 <label>E-mail</label>
 
  <input type = "text" name = "email" required>
